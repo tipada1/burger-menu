@@ -1,0 +1,48 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>CSS. Часть №1 (Синтаксис + Обнуление)</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+
+
+	<div class="wrapper">
+		<div class="burger-menu">
+			<div class="burger-menu__button">
+				<span class="burger-menu__lines"></span>
+			</div>
+			<nav class="burger-menu__nav">
+				<a href="#section-1" class="burger-menu__link">Секция 1</a>
+				<a href="#section-2" class="burger-menu__link">Секция 2</a>
+				<a href="#section-3" class="burger-menu__link">Секция 3</a>
+				<a href="#section-4" class="burger-menu__link">Секция 4</a>
+				<a href="#section-5" class="burger-menu__link">Секция 5</a>
+			</nav>
+			<div class="burger-menu__overlay"></div>
+		</div>
+
+
+		<section id="section-1">Секция 1</section>
+		<section id="section-2">Секция 2</section>
+		<section id="section-3">Секция 3</section>
+		<section id="section-4">Секция 4</section>
+		<section id="section-5">Секция 5</section>
+	</div>
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
